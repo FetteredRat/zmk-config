@@ -11,10 +11,8 @@
     keymap {
         compatible = "zmk,keymap";
 
-        &kscan0 {
             debounce-press-ms = <6>;
             debounce-release-ms = <7>;
-        };
 
         default_layer {
             // Commented layout is not actual layout.
